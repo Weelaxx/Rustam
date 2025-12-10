@@ -5,7 +5,6 @@ fun main() {
     println("Угадай число от 1 до 100!")
     
     while (true) {
-        print("Твоя попытка: ")
         val guess = readlnOrNull()?.toIntOrNull()
         
         when {
