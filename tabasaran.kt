@@ -12,7 +12,7 @@ fun main() {
             guess < secretNumber -> println("Больше!")
             guess > secretNumber -> println("Меньше!")
             else -> {
-                println("Поздравляю! Угадал за ${++attempts} попыток!")
+                
                 break
             }
         }
