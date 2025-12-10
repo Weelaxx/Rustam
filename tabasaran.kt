@@ -2,15 +2,6 @@ fun main() {
     val secretNumber = (1..100).random()
     var attempts = 0
     
-<<<<<<< HEAD
-
-    
-    while (true) {
-        val guess = readlnOrNull()?.toIntOrNull()
-        
-        when {
-            guess == null -> println("Введи число!")
-=======
     println("Угадай число от 1 до 100!")
     
     while (true) {
@@ -18,12 +9,11 @@ fun main() {
         val guess = readlnOrNull()?.toIntOrNull()
         
         when {
-            guess == null -> println("123123123")
->>>>>>> main
+            guess == null -> println("Введи число!")
             guess < secretNumber -> println("Больше!")
             guess > secretNumber -> println("Меньше!")
             else -> {
-                
+                println("Поздравляю! Угадал за ${++attempts} попыток!")
                 break
             }
         }
