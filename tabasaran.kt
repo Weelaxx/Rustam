@@ -12,7 +12,8 @@ fun main() {
             guess < secretNumber -> println("Больше!")
             guess > secretNumber -> println("Меньше!")
             else -> {
-
+                println("")
+                break
 
             }
         }
