@@ -15,6 +15,6 @@ fun main() {
 
             }
         }
-        attempts++
+
     }
 }
