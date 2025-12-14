@@ -13,6 +13,7 @@ fun main() {
             guess > secretNumber -> println("Меньше!")
             else -> {
 
+
             }
         }
         attempts++
