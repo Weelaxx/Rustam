@@ -5,7 +5,6 @@ fun main() {
     println("")
     
     while (true) {
-        print("Твоя попытка: ")
         val guess = readlnOrNull()?.toIntOrNull()
         
         when {
@@ -13,8 +12,7 @@ fun main() {
             guess < secretNumber -> println("Больше!")
             guess > secretNumber -> println("Меньше!")
             else -> {
-                println("Поздравляю! Угадал за ${++attempts} попыток!")
-                break
+
             }
         }
         attempts++
